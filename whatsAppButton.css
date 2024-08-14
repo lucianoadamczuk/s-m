@@ -1,0 +1,24 @@
+.whatsappButton {
+	width: 60px;
+	aspect-ratio: 1/1;
+	background-color: var(--success);
+	position: fixed;
+	right: var(--space-xl);
+	bottom: var(--space-xl);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: var(--rounded-md);
+	transition: 0.3s;
+	z-index: 99999;
+
+	& > svg {
+		width: 70%;
+		height: 70%;
+		color: var(--light);
+	}
+}
+
+.whatsappButton:hover {
+	background-color: var(--success-light);
+}

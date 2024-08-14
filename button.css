@@ -1,0 +1,21 @@
+.button {
+	padding: var(--space-sm) var(--space-xl);
+	color: var(--light);
+	background: linear-gradient(to top, var(--primary), var(--primary-light));
+	border: 0px;
+	border-radius: var(--rounded-sm);
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.button:hover {
+	opacity: 0.7;
+}
+
+.secondary {
+	background: linear-gradient(to top, var(--secondary), var(--secondary-light));
+}
+
+.button:active {
+	transform: scale(95%);
+}

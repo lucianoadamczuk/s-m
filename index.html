@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./src/styles/index.css" />
+		<link rel="stylesheet" href="./navbar.css" />
+		<link rel="stylesheet" href="./carouselHeader.css" />
+		<link rel="stylesheet" href="./button.css" />
+		<link rel="stylesheet" href="list.css" />
+		<link rel="stylesheet" href="./mainLayout.css" />
+		<link rel="stylesheet" href="./carouselBreakpoints.css" />
+		<link rel="stylesheet" href="./whatsAppButton.css" />
+		<link rel="stylesheet" href="./footer.css" />
+		<link
+			rel="shortcut icon"
+			href="/public/assets/images/favicon.png"
+			type="image/x-icon"
+		/>
+		<title>S&M - Máquinas Textiles</title>
+	</head>
+	<body>
+		<!-- ----------------------------------------------------------------------- -->
+		<!--                                 navbar                                  -->
+		<!-- ----------------------------------------------------------------------- -->
+		<nav class="navbar">
+			<img
+				src="/public/assets/images/logo_.png"
+				alt="Logo de la empresa"
+				class="logo"
+			/>
+			<!-- menu icons -->
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				width="16"
+				height="16"
+				fill="currentColor"
+				class="icon"
+				viewBox="0 0 16 16"
+			>
+				<path
+					fill-rule="evenodd"
+					d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+				/>
+			</svg>
+
+			<!-- links -->
+			<!-- -------------- class isOpen para abrir el menu en mobile -------------- -->
+			<div class="linksContainer">
+				<a href="#" class="link">Inicio</a>
+				<a href="#acercaDeNosotros" class="link">Acerda de nosotros</a>
+				<a href="#servicios" class="link">Servicios</a>
+				<a href="#productos" class="link">Productos</a>
+				<a href="#contacto" class="button secondary">Contacto</a>
+			</div>
+		</nav>
+
+		<!-- ----------------------------------------------------------------------- -->
+		<!--                             carouselHeader                              -->
+		<!-- ----------------------------------------------------------------------- -->
+		<header class="carouselContainer">
+			<div class="carousel">
+				<article class="slide">
+					<div class="box">
+						<h4>Compresor</h4>
+						<span> texto optativo</span>
+						<span> texto optativo</span>
+						<span> texto optativo</span>
+					</div>
+
+					<img
+						src="/public/assets/images/productos/COMPRESOR.png"
+						alt="Compresor"
+						class="image"
+					/>
+				</article>
+			</div>
+		</header>
+
+		<main>
+			<!-- ----------------------------------------------------------------------- -->
+			<!--                           acerca de nosotros                            -->
+			<!-- ----------------------------------------------------------------------- -->
+			<section class="mainLayout" id="acercaDeNosotros">
+				<h3 class="title">Acerca de nosotros</h3>
+
+				<div class="box box-1">
+					<p class="text">
+						S&M es una empresa con 30 años de trayectoria dentro del rubro
+						textil, nos dedicamos a la comercialización de todo tipo de
+						maquinaria e insumos para la fabricación de medias y afines.
+					</p>
+					<p class="text">
+						Ofrecemos un servicio personalizado a cada cliente y entendemos muy
+						bien que la venta de una maquina no finaliza con la entrega de la
+						misma, es por esto que contamos con un excelente servicio post
+						venta, proveemos de todos los repuestos e insumos necesarios para la
+						fabricación, y manejamos garantía directa en todos nuestros
+						productos.
+					</p>
+					<p class="text">
+						Nuestro compromiso con el cliente es total, es por eso que ofrecemos
+						un servicio integral, de seriedad y excelencia, que sumado a nuestra
+						gran experiencia en fabricación es lo que nos hace diferenciar.
+					</p>
+				</div>
+
+				<div class="box box-2">
+					<picture>
+						<source
+							media="(min-width: 724px)"
+							srcset="public/assets/images/quienes-somos-desktop.jpg"
+							class="image"
+						/>
+						<img
+							src="public/assets/images/quienes-somos-mobile.jpg"
+							alt=""
+							class="image"
+						/>
+					</picture>
+				</div>
+			</section>
+
+			<!-- ----------------------------------------------------------------------- -->
+			<!--                                servicios                                -->
+			<!-- ----------------------------------------------------------------------- -->
+			<section class="mainLayout mainLayoutDark" id="servicios">
+				<h3 class="title">Servicios</h3>
+
+				<div class="box box-1">
+					<ul class="list listSecondary">
+						<li>
+							Venta directa de maquinaria de última generación y tecnología.
+						</li>
+						<li>Servicio de importación propio.</li>
+						<li>
+							Asesoramiento para el correcto tipo y configuración de máquina.
+						</li>
+						<li>
+							Logística, traslados, instalación (nacional e internacional).
+						</li>
+						<li>Servicio post venta de mantenimiento y reparaciones.</li>
+						<li>Venta directa de todo tipo de repuestos necesarios.</li>
+						<li>Venta directa de insumos y accesorios para fabricación.</li>
+						<li>Garantía propia directa.</li>
+					</ul>
+				</div>
+
+				<div class="box box-2">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="16"
+						height="16"
+						fill="currentColor"
+						class="bi bi-wrench-adjustable-circle-fill"
+						viewBox="0 0 16 16"
+					>
+						<path
+							d="M6.705 8.139a.25.25 0 0 0-.288-.376l-1.5.5.159.474.808-.27-.595.894a.25.25 0 0 0 .287.376l.808-.27-.595.894a.25.25 0 0 0 .287.376l1.5-.5-.159-.474-.808.27.596-.894a.25.25 0 0 0-.288-.376l-.808.27z"
+						/>
+						<path
+							d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m-6.202-4.751 1.988-1.657a4.5 4.5 0 0 1 7.537-4.623L7.497 6.5l1 2.5 1.333 3.11c-.56.251-1.18.39-1.833.39a4.5 4.5 0 0 1-1.592-.29L4.747 14.2a7.03 7.03 0 0 1-2.949-2.951M12.496 8a4.5 4.5 0 0 1-1.703 3.526L9.497 8.5l2.959-1.11q.04.3.04.61"
+						/>
+					</svg>
+				</div>
+			</section>
+
+			<!-- ----------------------------------------------------------------------- -->
+			<!--                                productos                                -->
+			<!-- ----------------------------------------------------------------------- -->
+			<section class="mainLayout" id="productos">
+				<h3 class="title">Productos</h3>
+
+				<div class="box box-1">
+					<ul class="list">
+						<li>
+							Máquinas de tejer medias:
+							<ul>
+								<li>Tejido Liso.</li>
+								<li>Tejido toalla.</li>
+								<li>
+									<em
+										>Diámetro de cilindro y cantidad de agujas adaptable a
+										pedido de cliente.</em
+									>
+								</li>
+							</ul>
+						</li>
+						<li>Máquinas de tejer capelladas (Shoes).</li>
+						<li>Máquinas de costura para punteras.</li>
+						<li>
+							Máquinas de Planchado a vapor automatizadas con extracción manual
+							o automática.
+						</li>
+						<li>Máquinas de etiquetado, empaquetado, packaging.</li>
+						<li>Compresores.</li>
+						<li>
+							Máquinas complementarias:
+							<ul>
+								<li>Máquinas para dado vuelta de medias.</li>
+								<li>Enconadoras (cantidad de usos a elección).</li>
+								<li>Máquinas de afilado.</li>
+							</ul>
+						</li>
+						<li>Repuestos.</li>
+					</ul>
+				</div>
+
+				<div class="box box-2">
+					<p>carousel</p>
+				</div>
+
+				<!-- ------------------------- carouselBreakpoints ------------------------- -->
+				<!-- podriamos agregar los repuestos acá -->
+				<div class="box box-3">
+					<section class="carouselBreakpoints">
+						<img src="/public/assets/images/repuestos/AGUJAS.jpg" alt="" />
+						<img src="/public/assets/images/repuestos/AGUJAS.jpg" alt="" />
+						<img src="/public/assets/images/repuestos/AGUJAS.jpg" alt="" />
+						<img src="/public/assets/images/repuestos/AGUJAS.jpg" alt="" />
+						<img src="/public/assets/images/repuestos/AGUJAS.jpg" alt="" />
+						<img src="/public/assets/images/repuestos/AGUJAS.jpg" alt="" />
+					</section>
+				</div>
+			</section>
+
+			<!-- ----------------------------------------------------------------------- -->
+			<!--                                whatsApp                                 -->
+			<!-- ----------------------------------------------------------------------- -->
+			<a href="" target="_blank" class="whatsappButton">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="16"
+					height="16"
+					fill="currentColor"
+					class="bi bi-whatsapp"
+					viewBox="0 0 16 16"
+				>
+					<path
+						d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+					/>
+				</svg>
+			</a>
+		</main>
+
+		<!-- ----------------------------------------------------------------------- -->
+		<!--                                 footer                                  -->
+		<!-- ----------------------------------------------------------------------- -->
+		<footer id="contacto">
+			<!-- telefono mail direccion -->
+			<div class="contactsContainer">
+				<div class="box">
+					<h5 class="subtitle">Horarios de atención</h5>
+					<p>Lunes a Viernes de 9:00hs a 18:00hs</p>
+				</div>
+				<div class="box">
+					<h5 class="subtitle">Telefonos</h5>
+					<p>11-3583-1357</p>
+					<p>11-3207-3424</p>
+				</div>
+				<div class="box">
+					<h5 class="subtitle">Correo</h5>
+					<p>Wayruns@outlook.com</p>
+				</div>
+			</div>
+
+			<!-- map -->
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52490.98158155824!2d-58.637716554493416!3d-34.687864764323706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc622f9709805%3A0xb5f373c7721a50a5!2sSan%20Justo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1723574070837!5m2!1ses-419!2sar"
+				width="600"
+				height="450"
+				style="border: 0"
+				allowfullscreen=""
+				loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"
+				class="map"
+			></iframe>
+
+			<!-- formulario -->
+			<form class="form">
+				<div>
+					<label for="" class="label">Nombre</label>
+					<input type="text" name="" id="" class="input" />
+				</div>
+
+				<div>
+					<label for="" class="label">Correo Electronico</label>
+					<input type="text" name="" id="" class="input" />
+				</div>
+
+				<div>
+					<label for="" class="label">Asunto</label>
+					<input type="text" name="" id="" class="input" />
+				</div>
+
+				<div>
+					<label for="" class="label">Mensaje</label>
+					<textarea name="" id=""></textarea>
+				</div>
+
+				<button type="submit" class="button">Enviar</button>
+			</form>
+		</footer>
+	</body>
+</html>

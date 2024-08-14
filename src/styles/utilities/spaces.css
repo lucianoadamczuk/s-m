@@ -1,0 +1,19 @@
+* {
+	--space-sm: 10px;
+	--space-md: 20px;
+	--space-lg: 30px;
+	--space-xl: 50px;
+	--space-container: 5%;
+}
+
+@media (width > 1024px) {
+	* {
+		--space-container: 10%;
+	}
+}
+
+@media (width > 1500px) {
+	* {
+		--space-container: 20%;
+	}
+}

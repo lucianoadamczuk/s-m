@@ -1,0 +1,12 @@
+.carouselBreakpoints {
+	width: 100%;
+	padding: var(--space-lg) var(--space-container);
+	display: flex;
+	gap: var(--space-lg);
+
+	& > img {
+		width: 250px;
+		height: 150px;
+		object-fit: cover;
+	}
+}

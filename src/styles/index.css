@@ -1,0 +1,13 @@
+@import './base/reset.css';
+
+/* --------------------------------- colors --------------------------------- */
+@import './colors/light-theme.css';
+
+/* ------------------------------ typographies ------------------------------ */
+@import './typographies/fonts.css';
+@import './typographies/sizes.css';
+@import './typographies/fontsReset.css';
+
+/* -------------------------------- utilities ------------------------------- */
+@import './utilities/borders.css';
+@import './utilities/spaces.css';
