@@ -1,0 +1,106 @@
+* {
+	/* ---------------------------------- reset --------------------------------- */
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	position: relative;
+
+	/* --------------------------------- colors --------------------------------- */
+	--light: #f2f2f2;
+	--dark: #0d0d0d;
+	--background: #e9e9e9;
+	--background-dark: #d2d2d2;
+	--primary: #45527d;
+	--primary-light: #7f8ece;
+	--secondary: #5f323d;
+	--secondary-transparent: #5f323dc2;
+	--secondary-light: #c98591;
+	--success: #128c7e;
+	--success-light: #1da54f;
+
+	/* ------------------------------- font sizes ------------------------------- */
+	--font-sm: 1.4rem;
+	--font-md: 1.6rem;
+	--font-lg: 2rem;
+	--font-xl: 4rem;
+
+	/* --------------------------------- borders -------------------------------- */
+	--rounded-sm: 5px;
+	--rounded-md: 15px;
+}
+
+/* --------------------------------- spaces --------------------------------- */
+* {
+	--space-sm: 10px;
+	--space-md: 20px;
+	--space-l: 30px;
+	--space-xl: 50px;
+	--space-container: 5%;
+}
+
+@media (width > 1024px) {
+	* {
+		--space-container: 10%;
+	}
+}
+
+@media (width > 1500px) {
+	* {
+		--space-container: 20%;
+	}
+}
+
+/* ------------------------------ typographies ------------------------------ */
+@font-face {
+	font-family: 'lato';
+	font-weight: normal;
+	src: url(/public/assets/fonts/Lato-Light.ttf);
+}
+
+/* for titles */
+@font-face {
+	font-family: 'playfairDisplay';
+	src: url(/public/assets/fonts/PlayfairDisplay-bold.ttf);
+	font-weight: bold;
+}
+
+* {
+	--font-paragraph: 'lato';
+	--font-title: 'playfairDisplay';
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	min-width: 300px;
+	background-color: var(--background);
+	color: var(--dark);
+	font-size: var(--font-md);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+p,
+a,
+span,
+li {
+	font-family: var(--font-paragraph);
+	text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.button {
+	font-family: var(--font-title);
+	text-wrap: balance;
+}

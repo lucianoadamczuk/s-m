@@ -1,6 +1,6 @@
 footer {
 	width: 100%;
-	padding: var(--space-lg) var(--space-container);
+	padding: var(--space-l) var(--space-container);
 	display: grid;
 	grid-template-columns: 1fr;
 	justify-items: center;

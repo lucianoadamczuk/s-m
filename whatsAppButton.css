@@ -3,8 +3,8 @@
 	aspect-ratio: 1/1;
 	background-color: var(--success);
 	position: fixed;
-	right: var(--space-xl);
-	bottom: var(--space-xl);
+	right: var(--space-md);
+	bottom: var(--space-md);
 	display: flex;
 	justify-content: center;
 	align-items: center;

@@ -1,8 +1,8 @@
 .carouselBreakpoints {
 	width: 100%;
-	padding: var(--space-lg) var(--space-container);
+	padding: var(--space-l) var(--space-container);
 	display: flex;
-	gap: var(--space-lg);
+	gap: var(--space-l);
 
 	& > img {
 		width: 250px;
